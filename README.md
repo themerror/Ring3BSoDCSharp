@@ -18,7 +18,7 @@ private static extern uint RtlAdjustPrivilege(
 [DllImport("ntdll.dll")]
 private static extern uint NtRaiseHardError(
     uint ErrorStatus,
-    NumberOfParameters,
+    uint NumberOfParameters,
     uint UnicodeStringParameterMask,
     IntPtr Parameters,
     uint ValidResponseOption,
